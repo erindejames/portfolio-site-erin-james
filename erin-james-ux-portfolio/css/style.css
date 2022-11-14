@@ -1,0 +1,146 @@
+/* 
+Headings: Teal #066c7a
+paragraphs: # fff
+navbar: blue #262861
+navbar hover Chartrues #BEC947
+*/ 
+
+body {
+    font-family: 'Poppins';
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 300; /* Sets the font weight to 300 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+    color: #4a4a4a;
+}
+h1, h2, h3, h4 {
+    font-family:'Sintony', sans-serif;
+    color: #066c7a;
+    line-height: 1.4;
+  }
+  h1 {
+    color: #066c7a !important;
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262861;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:15px 17px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #BEC947;
+  }
+
+  .logo {
+    height:51px;
+    float:left;
+  }
+
+  #hero {
+    height: 20%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+  .heroText {
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+
+.resume-button {
+width: 144px;
+height: 42px;
+left: 59px;
+top: 443px;background: #BEC947;
+border-radius: 8px;
+}
+
+.read-more {
+width: 144px;
+height: 42px;
+left: 59px;
+top: 443px;background: #BEC947;
+border-radius: 8px;
+text-decoration: none !important;
+}
+
+.container { 
+    display: flex;
+}
+
+.container > div {
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 20px;
+}
+
+.email-link {
+    color: #BEC947';
+}
+ a:hover {
+    background-color: #BEC947;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
+
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+  #hero h1 {
+    margin: 0;
+    padding: 0.67em 0;
+  }
+  #hero {
+    background-color: #ffe4c4;
+    padding: 20px 0;
+  }
+
+  main {
+    padding-top: 133px;
+  }
