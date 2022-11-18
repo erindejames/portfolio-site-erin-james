@@ -3,7 +3,14 @@ Headings: Teal #066c7a
 paragraphs: # fff
 navbar: blue #262861
 navbar hover Chartrues #BEC947
+color-primary: #0f2b54;
+color-secondary: #0f5450;
+
 */ 
+
+* {
+	box-sizing: border-box;
+}
 
 body {
     font-family: 'Poppins';
@@ -14,11 +21,12 @@ body {
 }
 h1, h2, h3, h4 {
     font-family:'Sintony', sans-serif;
-    color: #066c7a;
+    color: #00003b;
     line-height: 1.4;
   }
   h1 {
-    color: #066c7a !important;
+    color:     background-color: #262861;
+    !important;
     font-size: 2.75em;
     font-weight: 700;
   }
@@ -137,7 +145,7 @@ text-decoration: none !important;
     padding: 0.67em 0;
   }
   #hero {
-    background-color: #ffe4c4;
+    background-color: #f96167;
     padding: 20px 0;
   }
   
