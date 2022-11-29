@@ -49,7 +49,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #262861;
+    background-color: #B581AE;
   }
   
   li {
@@ -65,7 +65,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #BEC947;
+    background-color: #B7E5DA;
   }
 
   .logo {
@@ -108,6 +108,11 @@ transition: 0.2s;
 margin-top: 15px;
 transition: 0.2s opacity;
 
+}
+
+a.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .read-more {
@@ -241,7 +246,8 @@ selector {
 }
 
 header {
-  background-color: #ffe4c4;
+  background-color: #4A666A
+  ;
   text-align: center;
   padding: 10px 0;
 }
@@ -263,7 +269,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #4A666A;
 }
 
 #hero h1 {
@@ -352,7 +358,7 @@ height: auto;
 }
 
 footer {
-  background: rgb(240, 190, 148);
+  background: #4A666A;
   background: linear-gradient(180deg, #B581AE 0%, rgba(183, 229, 218, 0.6) 100%);
   padding: 15px 10px;
   width: 100%
@@ -379,6 +385,14 @@ footer {
   font-size: 12px;
   padding: 5px 0;
   text-align: right;
+  margin: 0;
+}
+
+.row {
+  margin: 100px 0;
+}
+
+#skills.row {
   margin: 0;
 }
 
