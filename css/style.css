@@ -94,15 +94,27 @@ text-align: center;
 width: 144px;
 height: 42px;
 left: 59px;
-top: 443px;background: #BEC947;
+top: 443px;background: #4A666A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 25px;
+transition: 0.2s;
+margin-top: 15px;
+transition: 0.2s opacity;
+
 }
 
 .read-more {
 width: 144px;
 height: 42px;
 left: 59px;
-top: 443px;background: #BEC947;
+top: 443px;background: #4A666A;
 border-radius: 8px;
 text-decoration: none !important;
 }
@@ -118,10 +130,10 @@ text-decoration: none !important;
 }
 
 .email-link {
-    color: #BEC947';
+    color: #B7E5DA';
 }
  a:hover {
-    background-color: #BEC947;
+    background-color: #B7E5DA;
   }
   * {
     box-sizing: border-box;
@@ -144,7 +156,7 @@ text-decoration: none !important;
     padding: 0.67em 0;
   }
   #hero {
-    background-color: #f96167;
+    background-color: #B581AE;
     padding: 20px 0;
   }
   
@@ -316,7 +328,7 @@ height: auto;
 
 footer {
   background: rgb(240, 190, 148);
-  background: linear-gradient(162deg, rgba(240, 190, 148, 1) 0%, rgba(190, 129, 144, 1) 76%);
+  background: linear-gradient(180deg, #B581AE 0%, rgba(183, 229, 218, 0.6) 100%);
   padding: 15px 10px;
   width: 100%
 }
