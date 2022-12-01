@@ -38,6 +38,7 @@ h1, h2, h3, h4 {
   h3 {
     font-size: 1.75em;
     font-weight: 400;
+    padding-left: 24px;
   }
   h4 {
     font-size: 1.35em;
@@ -45,16 +46,13 @@ h1, h2, h3, h4 {
   }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: disc;
+    margin: 16;
+    padding: 16;
     overflow: hidden;
     background-color: #B581AE;
   }
   
-  li {
-    float: right;
-  }
   
   li a {
     display: block;
@@ -91,11 +89,11 @@ text-align: center;
   }
 
 .resume-button {
-width: 144px;
+width: 200px;
 height: 42px;
 left: 59px;
 top: 443px;background: #4A666A;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 border-radius: 8px;
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
@@ -107,10 +105,17 @@ padding-right: 25px;
 transition: 0.2s;
 margin-top: 15px;
 transition: 0.2s opacity;
+border-color:white;
+font-size: 16px;
 
 }
 
 a.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+button:hover {
   opacity: 0.8;
   text-decoration: none;
 }
@@ -395,6 +400,8 @@ footer {
 #skills.row {
   margin: 0;
 }
+
+
 
 
 
