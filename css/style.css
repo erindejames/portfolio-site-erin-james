@@ -5,6 +5,7 @@ navbar: blue #262861
 navbar hover Chartrues #BEC947
 color-primary: #0f2b54;
 color-secondary: #0f5450;
+
 */ 
 
 * {
@@ -109,6 +110,15 @@ font-size: 16px;
 
 }
 
+img {
+  width: 100%;
+}
+
+.social-media-icon{
+  width: 64px;
+}
+
+
 a.button:hover {
   opacity: 0.8;
   text-decoration: none;
@@ -155,6 +165,7 @@ text-decoration: none !important;
 
   .row {
     margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    overflow: auto;
   }
 
   .logo {
@@ -171,6 +182,8 @@ text-decoration: none !important;
   
   .col-md-6 {
     width: 50%;
+    float: left;
+    padding: 0 10px;
   }
 
   /* ==============================
@@ -290,10 +303,6 @@ nav > ul > li > a {
   display: block;
 }
 
-.col-md-6 {
-  width: 50%;
-}
-
 .button {
   display: inline-block;
   background-color: #ff7f50;
@@ -392,11 +401,10 @@ footer {
   margin: 0;
 }
 
-.row {
-  margin: 100px 0;
-}
 
 #skills.row {
   margin: 0;
 }
+
+
 
