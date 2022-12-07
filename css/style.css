@@ -285,6 +285,30 @@ nav > ul > li > a {
   color: #white;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
 #hero {
   background-color: #4A666A;
 }
