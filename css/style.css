@@ -321,6 +321,7 @@ nav > ul > li > a {
 #hero {
   background-color: #b7e5da;
   padding: 20px 0;
+  text-align: center;
 }
 
 #hero span {
