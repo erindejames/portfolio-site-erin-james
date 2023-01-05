@@ -195,6 +195,18 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  
   nav {
     width: auto;
     float: right;
@@ -274,10 +286,6 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
-
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -307,6 +315,10 @@ nav > ul > li > a {
   top: 2px;
   font-size: 20px;
   padding-right: ;
+}
+
+nav > ul {
+  margin: 1em 0;
 }
 
 #hero {
@@ -429,6 +441,35 @@ footer {
 
 #skills.row {
   margin: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+main {
+  padding-top: 56px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 

@@ -16,12 +16,11 @@ function replaceItem(iconName) {
 function menuToggle() {
 	var x = document.getElementById('myNavtoggle');
 	if (x.className === 'navtoggle') {
-		x.className += ' responsive';
-		replaceItem(closeIcon);
+	  x.className += ' responsive';
 	} else {
-		x.className = 'navtoggle';
-		replaceItem(menuIcon);
+	  x.className = 'navtoggle';
 	}
+  }
 }
 
 // Smooth Scrolling
