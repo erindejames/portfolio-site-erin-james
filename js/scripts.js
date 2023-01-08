@@ -21,7 +21,6 @@ function menuToggle() {
 	  x.className = 'navtoggle';
 	}
   }
-}
 
 // Smooth Scrolling
 // Select all links with hashes
