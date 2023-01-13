@@ -17,6 +17,11 @@ body {
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #4a4a4a;
 }
+
+    p {
+      margin: 16px
+}
+
 h1, h2, h3, h4 {
     font-family:'Sintony', sans-serif;
     color: #00003b;
@@ -69,7 +74,7 @@ ul {
   .logo {
     height:65px;
     width: 65px;
-    margin: 15px; 
+    margin: 15px 10px 10px; 
     padding: 5px 0px;
     float:left;
   }
@@ -193,9 +198,9 @@ text-decoration: none !important;
   position: absolute;
   right: 0;
   top: 20px;
-  font-size: 20px;
+  font-size: 30px;
   padding-right: 10px 0;
-  margin: 10px 10px 10px 0;
+  margin: 15px;
 }
 
 .navtoggle.responsive li {
@@ -300,7 +305,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #white;
+  color: #FFFFFF;
 }
 
 nav > ul {
@@ -395,7 +400,7 @@ height: auto;
 
 footer {
   background: #4A666A;
-  background: linear-gradient(180deg, #B581AE 0%, rgba(183, 229, 218, 0.6) 100%);
+  background: linear-gradient(180deg, #4A666A 0%, rgba(183, 229, 218, 0.6) 100%);
   padding: 15px 10px;
   width: 100%
 }
