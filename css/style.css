@@ -8,6 +8,10 @@ color-secondary: #0f5450;
 
 */ 
 
+html {
+  scroll-behavior: smooth;
+}
+
 .skills{
   background-color: #FFFFFF;
 }
@@ -45,8 +49,8 @@ h1, h2, h3, h4 {
     font-size: 1.75em;
     font-weight: 400;
     padding-left: 24px;
-    float: left;
   }
+
   h4 {
     font-size: 1.35em;
     font-weight: 400;
@@ -154,7 +158,6 @@ text-decoration: none !important;
 
 .container > div {
     background-color: lightgrey;
-    margin: 10px;
     padding: 20px;
 }
 
@@ -172,7 +175,7 @@ text-decoration: none !important;
   }
 
   .row {
-    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    margin: 15px 0; /* 25px top and bottom, 0 left and right */
     overflow: auto;
   }
 
@@ -181,10 +184,11 @@ text-decoration: none !important;
     margin: 0;
     padding: 0.67em 0;
   }
-  #hero {
+
+  /* #hero {
     background-color: #B581AE;
     padding: 20px 0;
-  }
+  } */
   
   .hero-img {
     margin: auto;
@@ -267,13 +271,6 @@ selector {
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
 }
 
-selector {
-  width: 1200px;
-}
-
-.container {
-  max-width: 1200px;
-}
 
 * {
   box-sizing: border-box;
@@ -288,7 +285,9 @@ selector {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#work .row { 
+  padding-bottom: 25px;
+ }
 
 #hero h1 {
   text-align: center; /* Centers text */
@@ -380,9 +379,9 @@ border-radius: 8px;
   
   color: #FFFFFF;}
 
-width: 100%;
+/* width: 100%;
 max-width: 100%;
-height: auto;
+height: auto; */
 
 @keyframes color-change {
   from {fill: #edc655;}
@@ -452,9 +451,12 @@ nav > ul > li {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 0px;
 }
 
+#about-title {
+  text-align: center;
+}
 
 
 
