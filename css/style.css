@@ -30,11 +30,11 @@ body {
 
 h1, h2, h3, h4 {
     font-family:'Sintony', sans-serif;
-    color: #00003b;
+    color: #002E48;
     line-height: 1.4;
   }
   h1 {
-    color: #066c7a !important;
+    color: #002E48 !important;
     font-size: 2.75em;
     font-weight: 700;
   }
@@ -162,7 +162,7 @@ text-decoration: none !important;
 }
 
 .email-link {
-    color: '#B7E5DA';
+    color: #002E48;
 }
  a:hover {
     background-color: #B7E5DA;
