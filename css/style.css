@@ -136,6 +136,7 @@ img {
 a.button:hover {
   opacity: 0.8;
   text-decoration: none;
+
 }
 
 button:hover {
@@ -213,7 +214,8 @@ text-decoration: none !important;
 
 [class*="col-"] {
   width: 100%;
-  text-align: center;
+  text-align: left;
+
 }
 
 
@@ -415,6 +417,15 @@ footer {
   background: linear-gradient(180deg, #4A666A 0%, rgba(183, 229, 218, 0.6) 100%);
   padding: 15px 10px;
   width: 100%
+  text: #d3dfe0
+}
+
+.footer-paragraph{
+  text-align: center;
+}
+
+.footer-heading{
+  color: #FFFFFF;
 }
 
 .footer.icon {
@@ -432,9 +443,7 @@ footer {
 .footer.icon a:hover {
   color: rgb(255, 255, 255, 100%);
 }
-.footer-paragraph {
-  text-align: center;
-}
+
 
 #copyright {
   color: rgb(255, 255, 255, 55%);
