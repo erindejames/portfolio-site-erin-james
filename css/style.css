@@ -432,6 +432,9 @@ footer {
 .footer.icon a:hover {
   color: rgb(255, 255, 255, 100%);
 }
+.footer-paragraph {
+  text-align: center;
+}
 
 #copyright {
   color: rgb(255, 255, 255, 55%);
