@@ -75,6 +75,7 @@ ul {
   
   li a:hover {
     background-color: #B7E5DA;
+    color: #112D38
   }
 
   .logo {
@@ -183,7 +184,7 @@ text-decoration: none !important;
 
   #hero h1 {
     margin: 0;
-    padding: 0.67em 0;
+
   }
 
   /* #hero {
@@ -332,7 +333,7 @@ nav > ul {
 
 #hero h1 {
   margin: 0;
-  padding: 30px;
+  padding: 0px;
 }
 
 #hero {
